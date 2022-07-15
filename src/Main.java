@@ -26,6 +26,7 @@ public class Main {
             double salary = employees[i].getSalary();
             if (salary < minSalary) {
                 minSalary = salary;
+
             }
         }
         System.out.println("Min salary of Employee: " + minSalary);
