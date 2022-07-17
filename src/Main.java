@@ -7,6 +7,7 @@ public class Main {
                 System.out.println(employees[i]);
             } else if (employees[i].getEmployeeName() == null) {      // проверка на ноль
                 System.out.println(employees[i].getEmployeeName());
+
             }
         }
     }
